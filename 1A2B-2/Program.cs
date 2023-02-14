@@ -31,6 +31,11 @@ namespace _1A2B_2
             {
                 Console.Write("請輸入 4 個數字：");
                 string input = Console.ReadLine();
+                if (input.Length != 4)
+                {
+                    Console.WriteLine("輸入格式錯誤，請重新輸入！");
+                    continue;
+                }
 
                 int A = 0;
                 int B = 0;

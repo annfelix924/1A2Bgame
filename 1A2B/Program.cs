@@ -55,13 +55,17 @@ namespace _1A2B
                     break;
                 }
 
-                Console.Write("你要繼續玩嗎？(y/n): ");
-                string continueGame = Console.ReadLine();
-                if (continueGame != "y")
-                {
-                    Console.WriteLine("遊戲結束，下次再來玩喔～");
-                    break;
-                }
+               
+            }
+            Console.Write("你要繼續玩嗎？(y/n): ");
+            string continueGame = Console.ReadLine();
+            if (continueGame != "y")
+            {
+                Console.WriteLine("遊戲結束，下次再來玩喔～");          
+            }
+            else 
+            {
+                Main(null);
             }
 
         }
